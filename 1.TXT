@@ -13,7 +13,7 @@
 3- Setup Tasks On GulpFile.js
 4- gulp watch                 Watch Files Of Our Project
 /*-------------------------------------------------------------------------------------*/
-/***  ***/
+/*** Notes ***/
 
 
 
