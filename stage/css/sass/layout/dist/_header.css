@@ -1,0 +1,69 @@
+.header {
+  background-color: #FFF;
+  padding: 20px;
+}
+.header .toggle-sidebar {
+  cursor: pointer;
+}
+.header .notifications-container {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header .notifications-container .toggle-notifications {
+  background-color: #F9F9F9;
+  padding: 10px;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+}
+.header .notifications-container .dropdown-menu {
+  min-width: 600px;
+  border: none;
+}
+.header .notifications-container .dropdown-menu:before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #333;
+}
+.header .notifications-container .dropdown-menu .noti-head {
+  background-color: #333;
+  padding: 15px;
+  color: #EEE;
+}
+.header .notifications-container .dropdown-menu .noti-head span {
+  float: right;
+}
+.header .notifications-container .dropdown-menu .noti-content {
+  padding: 20px;
+}
+.header .notifications-container .dropdown-menu .noti-content ul {
+  margin: 0;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li {
+  padding: 10px;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li i {
+  background-color: #EEE;
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li:last-child {
+  padding-bottom: 0;
+}
+.header .notifications-container .dropdown-menu .noti-foot a {
+  display: block;
+  padding: 10px;
+  border-top: 3px solid #EEE;
+  text-decoration: none;
+}
