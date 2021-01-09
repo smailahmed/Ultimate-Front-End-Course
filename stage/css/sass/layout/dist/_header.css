@@ -91,3 +91,64 @@
   border-top: 3px solid #EEE;
   text-decoration: none;
 }
+.header .usermenu-container {
+  float: right;
+}
+.header .usermenu-container .username {
+  cursor: pointer;
+}
+.header .usermenu-container .username .avatar {
+  width: 40px;
+  height: 40px;
+}
+.header .usermenu-container .username .user {
+  font-weight: bold;
+  color: #777;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header .usermenu-container .dropdown-menu {
+  min-width: 600px;
+  border: none;
+  padding: 20px;
+  border: 1px solid #DDD;
+}
+.header .usermenu-container .dropdown-menu:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #DDD;
+}
+.header .usermenu-container .dropdown-menu .user-info h3 {
+  font-weight: bold;
+}
+.header .usermenu-container .dropdown-menu .user-info p {
+  color: #888;
+}
+.header .usermenu-container .dropdown-menu .activities-list li {
+  padding: 10px;
+}
+.header .usermenu-container .dropdown-menu .usermenu-links .link-box {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #f3f3f3;
+  text-align: right;
+}
+.header .usermenu-container .dropdown-menu .usermenu-links .link-box i {
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.header .usermenu-container .dropdown-menu .usermenu-links .link-box i.fa-cog {
+  color: #2980b9;
+}
+.header .usermenu-container .dropdown-menu .usermenu-links .link-box i.fa-user {
+  color: #16a085;
+}
+.header .usermenu-container .dropdown-menu .usermenu-links .link-box i.fa-sign-out-alt {
+  color: #c0392b;
+}

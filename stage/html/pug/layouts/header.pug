@@ -18,4 +18,36 @@
             i.far.fa-thumbs-up.fa-lg
             | You Got Like From Elzero Web School Admin
       .noti-foot.text-center: a(href="#") View All Notifications
-    i.fas.fa-expand-arrows-alt.fa-lg.toggle-fullscreen.header-icon
+  i.fas.fa-expand-arrows-alt.fa-lg.toggle-fullscreen.header-icon
+  .dropdown.usermenu-container
+    .username#usermenu(data-bs-toggle='dropdown' aria-expanded='false')
+      img.avatar.rounded-circle(src="imgs/avatar.png", alt="User Avatar")
+      span.user GH EXE
+      i.fas.fa-angle-down
+    .dropdown-menu.dropdown-menu-end(aria-labelledby='usermenu')
+      .user-info
+        h3 GH EXE
+        p Premium Member
+      hr
+      ul.activities-list.list-unstyled
+        li Added Comment On Post "How To Create A Shell Script Auto Updated"
+        li Created Post On Annon Catergory
+        li Post "Make Asyn PHP Scripts"
+        li Added Comment On Post "Cryptographique From Scratch"
+      hr
+      .row.usermenu-links
+        .col
+          .link-box
+            i.fas.fa-cog
+            span Settings
+        .col
+          .link-box
+            i.fas.fa-user
+            span Profile
+        .col
+          .link-box
+            i.fas.fa-sign-out-alt
+            span Logout
+        
+
+
