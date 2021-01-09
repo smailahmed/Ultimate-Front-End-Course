@@ -16,6 +16,11 @@ $(function () {
       closeFullscreen();
     }
   });
+  // Toggle Settings
+  $(".toggle-settings").on("click", function () {
+    $(this).find("i").toggleClass("fa-spin");
+    $(this).parent().toggleClass("hide-settings");
+  });
 });
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
