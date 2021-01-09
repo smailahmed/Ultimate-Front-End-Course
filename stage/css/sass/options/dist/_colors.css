@@ -1,15 +1,34 @@
 .green-theme .classname {
   color: #27ae60;
 }
+.green-theme .page .page-head .page-title {
+  color: #27ae60;
+}
 
 .blue-theme .classname {
+  color: #2980b9;
+}
+.blue-theme .page .page-head .page-title {
   color: #2980b9;
 }
 
 .red-theme .classname {
   color: #c0392b;
 }
+.red-theme .page .page-head .page-title {
+  color: #c0392b;
+}
 
 .orange-theme .classname {
   color: #d35400;
+}
+.orange-theme .page .page-head .page-title {
+  color: #d35400;
+}
+
+.purple-theme .classname {
+  color: #8e44ad;
+}
+.purple-theme .page .page-head .page-title {
+  color: #8e44ad;
 }
