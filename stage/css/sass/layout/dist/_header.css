@@ -2,19 +2,20 @@
   background-color: #FFF;
   padding: 20px;
 }
+.header .header-icon {
+  background-color: #F9F9F9;
+  padding: 10px;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+  margin-left: 10px;
+}
 .header .toggle-sidebar {
   cursor: pointer;
 }
 .header .notifications-container {
   display: inline-block;
   margin-left: 20px;
-}
-.header .notifications-container .toggle-notifications {
-  background-color: #F9F9F9;
-  padding: 10px;
-  border-radius: 50%;
-  color: #555;
-  cursor: pointer;
 }
 .header .notifications-container .dropdown-menu {
   min-width: 600px;
@@ -33,6 +34,7 @@
   background-color: #333;
   padding: 15px;
   color: #EEE;
+  font-weight: bold;
 }
 .header .notifications-container .dropdown-menu .noti-head span {
   float: right;
@@ -44,22 +46,44 @@
   margin: 0;
 }
 .header .notifications-container .dropdown-menu .noti-content ul li {
-  padding: 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: #777;
+  border-bottom: 1px solid #e9e8e8;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li:first-child {
+  padding-top: 0;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
 }
 .header .notifications-container .dropdown-menu .noti-content ul li i {
   background-color: #EEE;
   padding: 10px;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  line-height: 26px;
+  width: 30px;
+  height: 30px;
+  line-height: 11px;
   text-align: center;
   margin-right: 10px;
   position: relative;
   top: 2px;
 }
-.header .notifications-container .dropdown-menu .noti-content ul li:last-child {
-  padding-bottom: 0;
+.header .notifications-container .dropdown-menu .noti-content ul li i.fa-dollar-sign {
+  color: #3498db;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li i.fa-envelope-open-text {
+  color: #f1c40f;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li i.fa-thumbs-up {
+  color: #e74c3c;
+}
+.header .notifications-container .dropdown-menu .noti-content ul li:not(:first-child) i:before {
+  position: relative;
+  left: -5px;
 }
 .header .notifications-container .dropdown-menu .noti-foot a {
   display: block;
