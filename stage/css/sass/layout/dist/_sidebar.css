@@ -45,6 +45,9 @@
 .page .sidebar .links-area > li > a:hover {
   padding-left: 25px;
 }
+.page .sidebar .links-area > li > a.active:before {
+  border-color: #ffc107;
+}
 .page .sidebar .links-area > li > a .fa-angle-right {
   float: right;
   position: relative;
