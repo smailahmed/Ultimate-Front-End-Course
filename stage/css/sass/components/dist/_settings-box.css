@@ -58,3 +58,6 @@
 .settings-box .color-options ul li.active {
   opacity: 1;
 }
+.settings-box .font-options select {
+  text-transform: capitalize;
+}

@@ -5,6 +5,18 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+body.open {
+  font-family: "Open Sans", sans-serif;
+}
+body.roboto {
+  font-family: "Roboto", sans-serif;
+}
+body.playfair {
+  font-family: "Playfair Display", serif;
+}
+body.fira {
+  font-family: "Fira Sans", sans-serif;
+}
 
 .page {
   min-height: 100vh;

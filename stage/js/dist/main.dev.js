@@ -33,6 +33,10 @@ $(function () {
   $(".color-options li").on("click", function () {
     $(this).addClass("active").siblings().removeClass("active");
     $("body").removeClass(themesClasses.join(" ")).addClass($(this).data("theme"));
+  }); // Switch Font Options
+
+  $(".font-options select").on("change", function () {
+    $("body").addClass($(this).find("option:selected").val());
   });
 });
 /* Get the documentElement (<html>) to display the page in fullscreen */
