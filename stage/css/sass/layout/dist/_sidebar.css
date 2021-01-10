@@ -1,0 +1,81 @@
+.page .sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #292C33;
+  color: #EEE;
+  padding: 15px;
+  transition: 0.3s;
+}
+.page .sidebar.no-sidebar {
+  left: -250px;
+}
+.page .sidebar .logo-area {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.page .sidebar .links-area li a {
+  color: #CCC;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.page .sidebar .links-area li a:hover {
+  color: #EEE;
+}
+.page .sidebar .links-area > li > a {
+  color: #EEE;
+  position: relative;
+}
+.page .sidebar .links-area > li > a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  transform: translateY(-50%);
+}
+.page .sidebar .links-area > li > a:hover {
+  padding-left: 25px;
+}
+.page .sidebar .links-area > li > a .fa-angle-right {
+  float: right;
+  position: relative;
+  top: 6px;
+  transition: 0.3s;
+}
+.page .sidebar .links-area > li > a .fa-angle-right.down {
+  transform: rotate(90deg);
+}
+.page .sidebar .links-area .child-links {
+  position: relative;
+  display: none;
+}
+.page .sidebar .links-area .child-links:before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #666;
+}
+.page .sidebar .links-area .child-links a {
+  position: relative;
+}
+.page .sidebar .links-area .child-links a:hover:before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #27ae60;
+}
